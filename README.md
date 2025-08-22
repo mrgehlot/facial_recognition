@@ -32,6 +32,41 @@ Each file in this project serves a specific purpose, creating a modular and unde
 | `utils.py`            | A helper script that automatically downloads the required `blaze_face` detection model from MediaPipe on the first run, ensuring you have the necessary files without manual downloads.              |
 | `requirements.txt`    | Lists all the Python dependencies required to run the project.                                                                                                                                          |
 
+## 🏗️ System Architecture
+
+```mermaid
+flowchart LR
+    subgraph "Input"
+        A[Webcam]
+        B[Face Images]
+    end
+
+    subgraph "Processing"
+        C[MediaPipe<br/>Face Detection]
+        D[FaceNet<br/>Embedding Generation]
+        E[ChromaDB<br/>Vector Search]
+    end
+
+    subgraph "Output"
+        F[Real-time Recognition]
+        G[Database Management]
+    end
+
+    A --> C
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    E --> G
+
+    style A fill:#e3f2fd
+    style B fill:#e3f2fd
+    style C fill:#f3e5f5
+    style D fill:#f3e5f5
+    style E fill:#e8f5e8
+    style F fill:#fff3e0
+    style G fill:#fff3e0
+```
 
 ## 🛠️ Installation & Usage Guide
 
@@ -103,3 +138,6 @@ This project is a great starting point for many exciting applications. Here are 
 ---
 
 Feel free to fork this project, add your own features, and make it even better! If you love it, please give it a ⭐!
+
+
+
