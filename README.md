@@ -40,8 +40,8 @@ Follow these steps to get the facial recognition system up and running.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/gehlotabhishek/simple_facial_recognition.git
-cd simple_facial_recognition
+git clone https://github.com/mrgehlot/facial_recognition.git
+cd facial_recognition
 ```
 
 ### Step 2: Install Dependencies
