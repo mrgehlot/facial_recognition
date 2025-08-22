@@ -1,0 +1,8 @@
+chromadb==0.4.22
+mediapipe==0.10.21
+opencv-python==4.9.0.80
+streamlit==1.29.0
+streamlit-webrtc==0.47.1
+tensorflow
+keras-facenet
+requests
