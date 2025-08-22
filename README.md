@@ -59,13 +59,13 @@ flowchart LR
     E --> F
     E --> G
 
-    style A fill:#e3f2fd
-    style B fill:#e3f2fd
-    style C fill:#f3e5f5
-    style D fill:#f3e5f5
-    style E fill:#e8f5e8
-    style F fill:#fff3e0
-    style G fill:#fff3e0
+    style A fill:#e3f2fd,stroke:#000000,color:#000000
+    style B fill:#e3f2fd,stroke:#000000,color:#000000
+    style C fill:#f3e5f5,stroke:#000000,color:#000000
+    style D fill:#f3e5f5,stroke:#000000,color:#000000
+    style E fill:#e8f5e8,stroke:#000000,color:#000000
+    style F fill:#fff3e0,stroke:#000000,color:#000000
+    style G fill:#fff3e0,stroke:#000000,color:#000000
 ```
 
 ## 🛠️ Installation & Usage Guide
