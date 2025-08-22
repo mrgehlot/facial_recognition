@@ -7,7 +7,7 @@ A modern, real-time facial recognition pipeline built with Python. This project 
 
 It's designed to be simple to set up and use, providing a solid foundation for various computer vision projects, from smart home security to personalized user experiences.
 
-[![Demo](https://youtu.be/chtdbYdnz3o)](https://youtu.be/chtdbYdnz3o)  <!-- You can replace this with a real GIF of your project! -->
+[![Demo](https://img.youtube.com/vi/chtdbYdnz3o/hqdefault.jpg)](https://youtu.be/chtdbYdnz3o)  <!-- You can replace this with a real GIF of your project! -->
 
 ## ✨ Features
 
